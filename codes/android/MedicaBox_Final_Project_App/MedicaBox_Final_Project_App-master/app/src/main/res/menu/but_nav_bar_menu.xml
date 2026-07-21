@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:title="Início"
+        android:id="@+id/itemHome"
+        android:icon="@drawable/baseline_home_24" />
+
+    <item
+        android:title="Caixa"
+        android:id="@+id/itemBox"
+        android:icon="@drawable/baseline_medication_24" />
+
+    <item
+        android:title="Notificações"
+        android:id="@+id/itemNotify"
+        android:icon="@drawable/baseline_notifications_24" />
+
+    <item
+        android:title="Adicionar"
+        android:id="@+id/itemAdd"
+        android:icon="@drawable/baseline_add_24" />
+
+    <item
+        android:title="Opções"
+        android:id="@+id/itemAccount"
+        android:icon="@drawable/baseline_person_24" />
+</menu>

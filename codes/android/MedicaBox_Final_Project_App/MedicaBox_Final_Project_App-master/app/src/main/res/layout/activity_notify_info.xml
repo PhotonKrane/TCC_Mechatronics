@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    tools:context=".ui.notify.NotifyInfoActivity">
+
+    <TimePicker
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/timePicker"
+        android:timePickerMode="spinner" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/but_log_bcg"
+        android:text="Salvar"
+        android:textAllCaps="false"
+        android:textSize="20sp"
+        android:textColor="@color/white"
+        android:fontFamily="@font/open_sans_bold"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginBottom="20dp"
+        android:id="@+id/butSave"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/but_log_bcg"
+        android:text="Configurar Notificação"
+        android:textAllCaps="false"
+        android:textSize="20sp"
+        android:textColor="@color/white"
+        android:fontFamily="@font/open_sans_bold"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginBottom="20dp"
+        android:id="@+id/congifNotify"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/but_log_bcg"
+        android:text="Cancelar Notificação"
+        android:textAllCaps="false"
+        android:textSize="20sp"
+        android:textColor="@color/white"
+        android:fontFamily="@font/open_sans_bold"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginBottom="20dp"
+        android:id="@+id/cancelNotify"/>
+
+</LinearLayout>

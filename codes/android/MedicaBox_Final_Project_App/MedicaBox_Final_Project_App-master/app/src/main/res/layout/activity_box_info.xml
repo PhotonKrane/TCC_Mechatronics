@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.box.BoxInfoActivity">
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:rotation="270"
+      android:layout_margin="5dp"
+      android:gravity="center">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="5dp"
+        android:id="@+id/check1">
+
+      <CheckBox
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:id="@+id/partAllCollum1"
+          android:layout_marginBottom="15dp"/>
+
+      <ImageView
+          android:layout_width="48dp"
+          android:layout_height="240dp"
+          android:background="@drawable/img_bcg_collum"
+          android:id="@+id/img1"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="5dp"
+        android:id="@+id/check2">
+
+      <CheckBox
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:id="@+id/partAllCollum2"
+          android:layout_marginBottom="15dp"/>
+
+      <ImageView
+          android:layout_width="48dp"
+          android:layout_height="240dp"
+          android:background="@drawable/img_bcg_collum"
+          android:id="@+id/img2"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="5dp"
+        android:id="@+id/check3">
+
+      <CheckBox
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:padding="5dp"
+          android:id="@+id/partAllCollum3"
+          android:layout_marginBottom="15dp"/>
+
+      <ImageView
+          android:layout_width="48dp"
+          android:layout_height="240dp"
+          android:background="@drawable/img_bcg_collum"
+          android:id="@+id/img3"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:id="@+id/check4"
+        android:orientation="vertical">
+
+      <CheckBox
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:id="@+id/partAllCollum4"
+          android:layout_marginBottom="15dp"/>
+
+      <ImageView
+          android:layout_width="48dp"
+          android:layout_height="240dp"
+          android:background="@drawable/img_bcg_collum"
+          android:id="@+id/img4"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/check5">
+
+      <CheckBox
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:id="@+id/partAllCollum5"
+          android:layout_marginBottom="15dp"/>
+
+      <ImageView
+          android:layout_width="48dp"
+          android:layout_height="240dp"
+          android:background="@drawable/img_bcg_collum"
+          android:id="@+id/img5"/>
+    </LinearLayout>
+  </LinearLayout>
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:orientation="horizontal"
+      android:gravity="center">
+    <TimePicker
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:id="@+id/timePicker"
+      android:timePickerMode="spinner" />
+  </LinearLayout>
+
+  <androidx.appcompat.widget.AppCompatButton
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:background="@drawable/but_log_bcg"
+      android:text="Salvar"
+      android:textAllCaps="false"
+      android:textSize="20sp"
+      android:textColor="@color/white"
+      android:fontFamily="@font/open_sans_bold"
+      android:layout_marginHorizontal="20dp"
+      android:layout_marginBottom="20dp"
+      android:id="@+id/butSave"/>
+
+  <androidx.appcompat.widget.AppCompatButton
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:background="@drawable/but_log_bcg"
+      android:text="Configurar Notificação"
+      android:textAllCaps="false"
+      android:textSize="20sp"
+      android:textColor="@color/white"
+      android:fontFamily="@font/open_sans_bold"
+      android:layout_marginHorizontal="20dp"
+      android:layout_marginBottom="20dp"
+      android:id="@+id/congifNotify"/>
+
+  <androidx.appcompat.widget.AppCompatButton
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:background="@drawable/but_log_bcg"
+      android:text="Cancelar Notificação"
+      android:textAllCaps="false"
+      android:textSize="20sp"
+      android:textColor="@color/white"
+      android:fontFamily="@font/open_sans_bold"
+      android:layout_marginHorizontal="20dp"
+      android:layout_marginBottom="20dp"
+      android:id="@+id/cancelNotify"/>
+
+  </LinearLayout>

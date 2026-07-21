@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".ui.account.UserInfoActivity">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editName"
+        android:hint="@string/userName"
+        android:gravity="center"
+        android:enabled="false"
+        android:inputType="text"
+        android:autofillHints=""
+        android:background="@drawable/enter_info_shape"
+        android:padding="8dp"
+        android:fontFamily="@font/open_sans_regular"
+        android:layout_marginBottom="10dp"
+        android:layout_margin="25dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editEmail"
+        android:hint="@string/editEmail"
+        android:gravity="center"
+        android:enabled="false"
+        android:background="@drawable/enter_info_shape"
+        android:padding="8dp"
+        android:fontFamily="@font/open_sans_regular"
+        android:inputType="textEmailAddress"
+        android:autofillHints=""
+        android:layout_marginBottom="10dp"
+        android:layout_margin="25dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="17sp"
+        android:layout_marginHorizontal="25dp"
+        android:gravity="center"
+        android:background="@drawable/enter_info_shape"
+        android:fontFamily="@font/open_sans_italic"
+        android:padding="8dp"
+        android:text="@string/voc_n_o_um_cuidador"
+        android:paddingVertical="10dp"
+        android:id="@+id/textCuidador"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginVertical="10dp"
+        android:layout_marginHorizontal="25dp">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="4"
+            android:textSize="15sp"
+            android:layout_marginVertical="10dp"
+            android:gravity="center"
+            android:fontFamily="@font/open_sans_bold"
+            android:text="UID: ************"
+            android:paddingVertical="10dp"
+            android:id="@+id/textUid"/>
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="42dp"
+            android:layout_marginVertical="10dp"
+            android:layout_weight="0.5"
+            android:src="@drawable/white_baseline_remove_red_eye_24"
+            android:id="@+id/showEye"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/editor"
+        android:layout_margin="25dp">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginHorizontal="5dp"
+            android:textAllCaps="false"
+            android:fontFamily="@font/open_sans_bold"
+            android:textColor="@color/darkCyanBlue"
+            android:background="@drawable/shape_cyan"
+            android:text="@string/editar"
+            android:id="@+id/butEdit"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginHorizontal="5dp"
+            android:textAllCaps="false"
+            android:fontFamily="@font/open_sans_bold"
+            android:textColor="@color/darkCyanBlue"
+            android:background="@drawable/shape_cyan"
+            android:text="@string/voltar"
+            android:id="@+id/butBack"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/editDelete"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="25dp">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/butSave"
+            android:background="@drawable/but_log_bcg"
+            android:textAllCaps="false"
+            android:fontFamily="@font/open_sans_bold"
+            android:textColor="@color/cyan"
+            android:layout_weight="1"
+            android:text="@string/Save"
+            android:layout_marginHorizontal="4dp"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/butCancel"
+            android:background="@drawable/but_log_bcg"
+            android:textAllCaps="false"
+            android:fontFamily="@font/open_sans_bold"
+            android:textColor="@color/cyan"
+            android:layout_weight="1"
+            android:text="@string/cancelar"
+            android:layout_marginHorizontal="4dp"/>
+    </LinearLayout>
+
+
+
+</LinearLayout>

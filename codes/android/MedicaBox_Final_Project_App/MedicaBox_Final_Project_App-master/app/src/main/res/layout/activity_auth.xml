@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.login.LoginActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/open_sans_bold"
+        android:gravity="center"
+        android:text="@string/medicabox"
+        android:textColor="@color/cyanBold"
+        android:textSize="60sp"
+        android:textStyle="bold"
+        android:id="@+id/medicName"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:layout_width="340dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/auth_shape"
+        android:fontFamily="@font/open_sans_regular"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="@string/verifyAccount"
+        android:textColor="@color/cyan"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        android:layout_marginTop="60dp"
+        android:layout_gravity="center_horizontal"/>
+
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/text_auth_shape"
+        android:fontFamily="@font/open_sans_regular"
+        android:gravity="center"
+        android:padding="20dp"
+        android:text="@string/textVerify"
+        android:textColor="@color/cyanBold"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        android:layout_marginTop="60dp"
+        android:layout_gravity="center_horizontal"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/but_log_bcg"
+        android:text="@string/clickVerify"
+        android:textAllCaps="false"
+        android:textSize="30sp"
+        android:padding="20dp"
+        android:textColor="@color/white"
+        android:fontFamily="@font/open_sans_bold"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="200dp"
+        android:id="@+id/butLog"/>
+</LinearLayout>

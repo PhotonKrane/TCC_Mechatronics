@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/searchBar"
+        android:layout_above="@+id/recView"
+        android:layout_marginHorizontal="25dp"
+        android:layout_marginBottom="15dp"
+        android:translationZ="5dp"
+        android:background="@color/purple_gray"
+        android:padding="5dp">
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:hint="@string/pesquise_o_medicamento"
+            android:id="@+id/seachBarEditor"
+            android:layout_weight="5"/>
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="45dp"
+            android:layout_weight="1"
+            android:id="@+id/seachBarVec"
+            android:src="@drawable/dark_round_search_24"/>
+
+    </LinearLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="350dp"
+        android:layout_height="550dp"
+        android:id="@+id/recView"
+        android:foregroundGravity="center"
+        android:src="@drawable/baseline_medication_24"
+        android:layout_centerInParent="true"
+        android:elevation="5dp"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:alpha="0.6"
+        android:elevation="1dp"
+        android:background="@color/purple_gray"
+        android:id="@+id/butBackground"/>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/RelLayout">
+
+        <com.google.android.material.bottomnavigation.BottomNavigationView
+            android:id="@+id/botNav"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            app:menu="@menu/but_nav_bar_menu"/>
+
+        <FrameLayout
+            android:id="@+id/frameLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentTop="true"
+            android:layout_alignTop="@+id/botNav">
+
+        </FrameLayout>
+    </RelativeLayout>
+</RelativeLayout>

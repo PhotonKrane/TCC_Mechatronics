@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="blackBlue">#011578</color>
+    <color name="cyanMedic">#A3DCE9</color>
+    <color name="cyanBold">#82ACE5</color>
+    <color name="shapeColor">#273755</color>
+    <color name="cyan">#273755</color>
+    <color name="purple">#6A1BFF</color>
+    <color name="purple_gray">#322f37</color>
+    <color name="darkCyanBlue">#1C51BF</color>
+</resources>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".fragments.BoxFragment"
+    android:layout_marginBottom="75dp">
+
+    <TextView
+        android:id="@+id/info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_margin="20dp"
+        android:layout_marginTop="651dp"
+        android:layout_marginBottom="20dp"
+        android:gravity="center"
+        android:text="@string/infoBox"
+        android:textSize="35sp" />
+
+    <TextView
+        android:id="@+id/remName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/info"
+        android:layout_marginHorizontal="45dp"
+        android:layout_marginVertical="40dp"
+        android:gravity="center"
+        android:text="@string/medicName"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/timeShow"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:gravity="center"
+        android:layout_below="@+id/info"
+        android:layout_toEndOf="@+id/remName"
+        android:text="@string/timeInterval"
+        android:textSize="25sp" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/boxView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/remName"
+        android:layout_margin="15dp"
+        android:layout_marginTop="-230dp" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:alpha=".8"
+        android:translationZ="10dp"
+        android:background="@color/purple_gray"
+        android:id="@+id/butBackground"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="350dp"
+        android:layout_height="450dp"
+        android:id="@+id/recView"
+        android:foregroundGravity="center"
+        android:src="@drawable/baseline_medication_24"
+        android:translationZ="10dp"
+        android:layout_centerInParent="true" />
+</RelativeLayout>
