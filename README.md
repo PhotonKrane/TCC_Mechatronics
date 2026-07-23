@@ -1,3 +1,5 @@
+**US README** | [PT-BR README](https://github.com/PhotonKrane/MedicaBox_TCC/blob/main/README.pt-BR.md)
+
 # <img src="https://github.com/PhotonKrane/MedicaBox_TCC/blob/main/TCC/media/Logo/MedicaBox%20Logo.png" width="50" alt="Logo MedicaBox"> MedicaBox TCC 💊
 
 <img src = "https://github.com/PhotonKrane/MedicaBox_TCC/blob/main/TCC/media/Final%20Presentation/Complete_Box.jpg" height="300" alt="Prototipo MedicaBox">
@@ -18,14 +20,14 @@ MedicaBox is an automated medication organizer integrated with an Android applic
 ## Technologies
   **- Mobile Programming**\
   **- Embedded Systems**\
-  **- Eletronics**\
+  **- Electronics**\
   **- Android Studio**\
   **- Firebase**\
-  **- WiFi in ESP32**\
+  **- ESP32 Wi-Fi Communication**\
   **- Microcontroller ESP32**
 
 ## ☑️ Summary:
-**Monograph**: [Final Monograaph](https://github.com/PhotonKrane/MedicaBox_TCC/blob/main/TCC/docs/Monograph/Final%20Monograph.pdf)\
+**Monograph**: [Final Monograph](https://github.com/PhotonKrane/MedicaBox_TCC/blob/main/TCC/docs/Monograph/Final%20Monograph.pdf)\
 **Monograph Resume**: [Monograph_Resume](https://github.com/PhotonKrane/MedicaBox_TCC/blob/main/TCC/docs/Monograph/Monograph_Resume.pdf)\
 **Mobile Code**: [MedicaBox_Final_Project_App](https://github.com/PhotonKrane/MedicaBox_TCC/tree/main/TCC/codes/android/MedicaBox_Final_Project_App/MedicaBox_Final_Project_App-master)\
 **Flowcharts**: [Flowcharts](https://github.com/PhotonKrane/MedicaBox_TCC/blob/main/TCC/docs/Flowcharts/Flowcharts.pdf)
@@ -34,6 +36,6 @@ MedicaBox is an automated medication organizer integrated with an Android applic
 **Functional Prototype**: [Final Test](https://github.com/PhotonKrane/MedicaBox_TCC/blob/main/TCC/media/Embadded/Videos/Final_Test.mp4)\
 **Schematic**: [Schematic Diagram](https://github.com/PhotonKrane/MedicaBox_TCC/blob/main/TCC/codes/hardware/Schematic/Schematic%20Diagram.png)
 
-### IF YOU WANT KNOW MORE INFORMATION, YOU CAN SEE MORE INFO [HERE](https://github.com/PhotonKrane/MedicaBox_TCC/tree/main/TCC)
+### YOU WANT TO KNOW MORE ABOUT THE PROJECT, YOU CAN SEE MORE INFO [HERE](https://github.com/PhotonKrane/MedicaBox_TCC/tree/main/TCC)
 
 📌 Above all else, this project was a milestone in my life as a programmer; it was the very first programming project I ever worked on.📌
