@@ -34,5 +34,5 @@ O MedicaBox é um organizador de medicamentos automatizado integrado a um aplica
 **Protótipo Funcional**: [Final Test](https://github.com/PhotonKrane/MedicaBox_TCC/blob/main/TCC/media/Embadded/Videos/Final_Test.mp4)\
 **Esquemática do Circuito**: [Schematic Diagram](https://github.com/PhotonKrane/MedicaBox_TCC/blob/main/TCC/codes/hardware/Schematic/Schematic%20Diagram.png)
 
-### CASO TENHA INTERESSE EM VER DETALHES, ESTÁ ORGANIZADO MAIS DETALHES DO PROJETO [AQUI](https://github.com/PhotonKrane/MedicaBox_TCC/tree/main/TCC)
+### CASO TENHA INTERESSE EM VER DETALHES DO PROJETO CLIQUE [AQUI](https://github.com/PhotonKrane/MedicaBox_TCC/tree/main/TCC)
 📌 Acima de tudo, este projeto foi um marco na minha vida como programador; foi o primeiro projeto de programação em que trabalhei.📌
